@@ -1,0 +1,1 @@
+ALTER TABLE students ADD COLUMN monthly_fee DECIMAL(10,2) DEFAULT 0;
