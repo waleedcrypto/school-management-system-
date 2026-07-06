@@ -231,7 +231,6 @@ export default function Documents() {
           title: docToUpload.title,
           description: docToUpload.description,
           file_path: filePath,
-          file_url: supabase.storage.from('school_documents').getPublicUrl(filePath).data.publicUrl,
           file_name: uploadedFile.name,
           file_size: uploadedFile.size,
           uploaded_by: user.id,
